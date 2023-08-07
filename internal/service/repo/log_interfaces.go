@@ -1,4 +1,4 @@
-package log
+package repo
 
 import "github.com/bersennaidoo/Loggeez/internal/domain/model"
 

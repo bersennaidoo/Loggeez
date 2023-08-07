@@ -1,14 +1,14 @@
 package app
 
 import (
-	r "github.com/bersennaidoo/Loggeez/internal/service/repo"
+	"github.com/bersennaidoo/Loggeez/internal/service/repo"
 )
 
 type App struct {
-	Log *r.Log
+	Log *repo.Log
 }
 
-func NewApp(l *r.Log) *App {
+func NewApp(l *repo.Log) *App {
 	return &App{
 		Log: l,
 	}

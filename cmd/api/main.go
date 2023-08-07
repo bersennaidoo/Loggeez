@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/bersennaidoo/Loggeez/internal/app"
-	r "github.com/bersennaidoo/Loggeez/internal/service/repo"
+	"github.com/bersennaidoo/Loggeez/internal/service/repo"
 )
 
 func main() {
 
-	lg := r.NewLog()
+	lg := repo.NewLog()
 	app := app.NewApp(lg)
 	app.RunAPI(":8080")
 }
